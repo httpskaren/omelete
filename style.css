@@ -11,11 +11,12 @@
 
 :root {
     --bg1: #f3e5d8;
-    --bg2: #fff7fc;
+    --bg2: #f3e9ef6c;
     --f1: #484745;
     --f2: #633147;
-    --f3: #4a423e;
-    --f4: #773e33;
+    --f3: #5f534d;
+    --f4: #4b3632;
+    --f5: #916078;
 }
 
 * {
@@ -27,6 +28,7 @@ body {
     max-width: 300px;
     max-width: 1000px;
     margin: auto;
+    font-weight: normal;
 }
 main {
     box-shadow: 0px 2px 7px #48474529;
@@ -39,5 +41,90 @@ main {
 }
 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+h1 {
+    font-family: 'font2';
+    color: var(--f1);
+    padding: 10px 5px;
+    font-weight: lighter;
+}
+p {
+    font-family: 'font1';
+    font-size: 0.9em;
+    text-align: justify;
+    color: var(--f3);
+    padding: 5px;
+}
+h2 {
+    font-family: 'font2';
+    font-weight: lighter;
+    color: var(--f4);
+    padding: 4px 5px;
+}
+h3 {
+    font-family: 'font1';
+    color: var(--f5);
+    padding: 10px;
+}
+article.tab {
+    background-color: var(--bg2);
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+}
+ul {
+    font-family: 'font1';
+    font-size: 0.9em;
+    color: var(--f3);
+    padding: 5px 22px;
+    text-align: justify;
+    list-style-type: #773e33'\2022';
+}
+ol {
+    font-family: 'font1';
+    font-size: 0.9em;
+    color: var(--f3);
+    padding: 10px 20px;
+    text-align: justify;
+    list-style-type: decimal;
+}
+li {
+    padding-left: 10px;
+}
+.tab > ul {
+    font-family: 'font1';
+    font-weight: 300;
+    color: var(--f3);
+    padding: 10px 30px;
+    list-style-type: '\2022\00A0\00A0\00A0\00A0';
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: 'font1';
+    color: var(--f3);
+    font-size: 0.9em;
+}
+td {
+    padding: 10px 10px;
+}
+.cor {
+    background-image: linear-gradient(to right, #ebc4d72f, transparent);
+}
+.negrito {
+    color: var(--f4);
+    font-weight: bolder;
+}
+hr {
+    border-top: 1px solid rgba(211, 211, 211, 0.34);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+span {
+    font-weight: bold;
+}
+
+/* como mudar as cores das ol e como dar espaço entre elas e o conteudo */
