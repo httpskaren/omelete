@@ -1,3 +1,3 @@
 # omelete
- Meu primeiro site de receita
+Link para a receita
 https://httpskaren.github.io/omelete/
